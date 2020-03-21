@@ -14,6 +14,7 @@
 		9D70E93624250FD000F4D36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D70E93524250FD000F4D36E /* Assets.xcassets */; };
 		9D70E93924250FD000F4D36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D70E93724250FD000F4D36E /* LaunchScreen.storyboard */; };
 		9D70E93C24250FD000F4D36E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D70E93B24250FD000F4D36E /* main.m */; };
+		9D70E9502426634100F4D36E /* CQLinedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D70E94F2426634100F4D36E /* CQLinedTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9D70E93824250FD000F4D36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D70E93A24250FD000F4D36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D70E93B24250FD000F4D36E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D70E94E2426634100F4D36E /* CQLinedTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLinedTextView.h; sourceTree = "<group>"; };
+		9D70E94F2426634100F4D36E /* CQLinedTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLinedTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				9D70E93724250FD000F4D36E /* LaunchScreen.storyboard */,
 				9D70E93A24250FD000F4D36E /* Info.plist */,
 				9D70E93B24250FD000F4D36E /* main.m */,
+				9D70E94E2426634100F4D36E /* CQLinedTextView.h */,
+				9D70E94F2426634100F4D36E /* CQLinedTextView.m */,
 			);
 			path = CQLinedTextView;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				9D70E93124250FCE00F4D36E /* ViewController.m in Sources */,
 				9D70E92B24250FCE00F4D36E /* AppDelegate.m in Sources */,
 				9D70E93C24250FD000F4D36E /* main.m in Sources */,
+				9D70E9502426634100F4D36E /* CQLinedTextView.m in Sources */,
 				9D70E92E24250FCE00F4D36E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CQLinedTextView : UITextView
 
+
+
 @end
+
+@interface CQLinedTextLayoutManager : NSLayoutManager
+
+
+
+@end
+
 
 NS_ASSUME_NONNULL_END

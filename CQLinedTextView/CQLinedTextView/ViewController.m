@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CQLinedTextView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    CQLinedTextView *textView = [[CQLinedTextView alloc] initWithFrame:CGRectMake(0, 70, 300, 500)];
+    textView.backgroundColor = [UIColor lightGrayColor];
+    textView.linedColor = UIColor.redColor;
+    [self.view addSubview:textView];
 }
 
 

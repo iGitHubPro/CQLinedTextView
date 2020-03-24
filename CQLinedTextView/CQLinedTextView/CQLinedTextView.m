@@ -53,7 +53,7 @@
         //NSInteger row = (y / h) + 1;
         // 根据行数划线
         CGContextRef context = UIGraphicsGetCurrentContext();
-        CGContextSetStrokeColorWithColor(context,self.linedColor.CGColor);
+        CGContextSetStrokeColorWithColor(context,UIColor.redColor.CGColor);
         CGContextBeginPath(context);
         CGContextMoveToPoint(context, 0, y+origin.y +h);// 起点
         CGContextAddLineToPoint(context, rect.size.width, y+origin.y +h);// 终点
